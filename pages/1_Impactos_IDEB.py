@@ -7,6 +7,7 @@ import plotly.express as px
 from sklearn.metrics import (mean_squared_error, r2_score, mean_absolute_percentage_error,
                              root_mean_squared_error, mean_absolute_error)
 
+
 st.set_page_config(page_icon='img/iconw.png', page_title='PDDE Smart', layout='wide')
 
 a,b = st.columns(2)
